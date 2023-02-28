@@ -339,7 +339,7 @@ form .btn2{
 
  /*---------------Responsive-----------------------*/
 
- nav .fa{
+ nav .fas{
   display: none;
  }
 
@@ -356,7 +356,7 @@ form .btn2{
     font-size: 30px;
   }
 
-  nav .fa{
+  nav .fas{
     display: block;
     font-size: 25px;
   }
@@ -376,7 +376,7 @@ form .btn2{
     margin: 25px;
   }
 
-  nav ul .fa{
+  nav ul .fas{
     position: absolute;
     top: 25px;
     left: 25px;
