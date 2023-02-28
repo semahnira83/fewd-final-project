@@ -1,26 +1,17 @@
-const grid = document.querySelector('.grid')
-const items = document.querySelectorAll('.item')
+var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
 
-items.forEach((item) => {
-  item.addEventListener('mouseenter', () => {
-    gsap.to(grid, {
-      '--track': '2fr',
-      duration: 0.3,
-    })
-    gsap.to(item, {
-      '--innerTrack': '1fr',
-      duration: 0.3,
-    })
-  })
+    function opentab(tabname){
+      for (tablink of tablinks){
+           tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents){
+           tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
 
-  item.addEventListener('mouseleave', () => {
-    gsap.to(grid, {
-      '--track': '1fr',
-      duration: 0.3,
-    })
-    gsap.to(item, {
-      '--innerTrack': '0fr',
-      duration: 0.3,
-    })
-  })
-})
+    }
+
+    
