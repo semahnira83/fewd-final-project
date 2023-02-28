@@ -25,5 +25,50 @@
       </div>
     </div>
    </div>
+
+  <!---------------------------about page -------------------------------->
+   <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/me.png">
+        </div>
+        <div class="about-col-2">
+          <h1 class="subtitle">About Me</h1>
+          <p>To use the knowledge that I have to the company and gain experience in work surrounding to understand better the use of information technology and multimedia</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('educations')">Education</p> 
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>UI/UX</span><br>Designing web app</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>2018</span><br>Experience</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="educations">
+          <ul>
+            <li><span>2020</span><br>Educations</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+   </div>
+
+   <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+      for (tablinks of tablinks.remove9"active)
+    }
+   </script>
 </body>
 </html>
