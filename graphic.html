@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   <script src="app.js" defer></script>
+    <script src="https://kit.fontawesome.com/605bed750e.js" crossorigin="anonymous"></script>
+    <title>Graphic Artwork</title>
+</head>
+<body>
+   <div id="headergraphic">
+    <div class="container">
+      <nav>
+        <a href = "index.html"><img src="images/logo.png" class="logo"></a>
+        <ul id="sidemenu">
+            <li> <a href = "index.html"> Home </a></li>
+            <li> <a href = "about.html"> About</a></li>
+            <li> <a href = "portfolio.html"> Portfolio</a></li>
+            <li> <a href = "contact.html"> Contact</a></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
+    </div>
+   </div>
+   <div class="img-full" id="fullimgbox">
+    <img src="images/img1.jpg" id="fullimg">
+    <span onclick="closeFullImg()">x</span>
+   </div>
+   <div class="graphic-art">
+     <img src="images/img1.jpg" onclick="openFullImg(this.src)">
+     <img src="images/img2.jpg" onclick="openFullImg(this.src)">
+     <img src="images/img3.jpg" onclick="openFullImg(this.src)">
+     <img src="images/img4.jpg" onclick="openFullImg(this.src)">
+     <img src="images/img5.jpg" onclick="openFullImg(this.src)">
+     <img src="images/img6.jpg" onclick="openFullImg(this.src)">
+     <img src="images/img7.jpg" onclick="openFullImg(this.src)">
+     <img src="images/img8.jpg" onclick="openFullImg(this.src)">
+    
+   </div>
+
+
+  <footer class="copyright">
+    <p>Copyright © 2023 Hasmanira </p>
+  </footer>
+</div>
+
+
+</body>
+</html>

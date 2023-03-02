@@ -1,5 +1,8 @@
+
+//tab
+
 let tablinks = document.getElementsByClassName("tab-links");
-    let tabcontents = document.getElementsByClassName("tab-contents");
+let tabcontents = document.getElementsByClassName("tab-contents");
     
 
     function opentab(tabname){
@@ -15,6 +18,7 @@ let tablinks = document.getElementsByClassName("tab-links");
     }
 
 
+    // sidemenu
     let sidemeu = document.getElementById("sidemenu");
     
     
@@ -27,4 +31,19 @@ let tablinks = document.getElementsByClassName("tab-links");
     }
 
 
+
+  //  expand image
+     let fullImgBox = document.getElementById("fullimgbox");
+    let fullImg = document.getElementById("fullimg");
+
+    function openFullImg(pic){
+       fullImgBox.style.display= "flex";
+       fullImg.src = pic;
+    }
+
+    function closeFullImg(){
+       fullImgBox.style.display= "none";
+    }
+
+   
     

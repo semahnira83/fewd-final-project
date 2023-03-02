@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   <script src="app.js" defer></script>
+    <script src="https://kit.fontawesome.com/605bed750e.js" crossorigin="anonymous"></script>
+    <title>Semaa Profile</title>
+</head>
+<body>
+   <div id="headergraphic">
+    <div class="container">
+      <nav>
+        <a href = "index.html"><img src="images/logo.png" class="logo"></a>
+        <ul id="sidemenu">
+          <li> <a href = "index.html"> Home </a></li>
+          <li> <a href = "about.html"> About</a></li>
+          <li> <a href = "portfolio.html"> Portfolio</a></li>
+          <li> <a href = "contact.html"> Contact</a></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
+    </div>
+   </div>
+
+
+
+  <!---------------------------about page -------------------------------->
+   <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/user.png">
+        </div>
+        <div class="about-col-2">
+          <h1 class="subtitle">About Me</h1>
+          <p> I specialize in crafting visually appealing content that communicates a message effectively. 
+               Whether it be through graphic design, video production, animation, or photography.
+               I have the skills and experience to bring your ideas to life.</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('educations')">Education</p>
+            <p class="tab-links" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+             
+        </div>
+        <div class="tab-contents active-tab" id="educations">
+          <ul>
+            <li><span>2001-2004</span><br>Universiti Kuala Lumpur Institut Infotech MARA (UniKL IIM)
+              <br>Diploma in Computer Science ( Multimedia )- UTM programme 
+              </li>
+              <li><span>2005-2008</span><br>Universiti Kuala Lumpur
+                <br>Malaysia Institute Information Technology (Unikl-MIIT)
+                <br>Bachelor in Multimedia Design 
+                </li> 
+          </ul>
+        </div>
+        <div class="tab-contents" id="skills">
+          <ul>
+            <li><span>Multimedia Application</span><br>Adobe Photoshop CC, Adobe Illustrator CC, Adobe Indesign CC, Adobe Premiere CC, Adobe After Effect CC, 
+                <br> Adobe Dreamweaver CC, Adobe Light Room CC, Adobe Animate CC, Adobe Acrobat and Final Cut Pro</li>
+                <li><span>Microsoft Application</span><br>Microsoft Word, Microsoft Excel, Microsoft Powerpoint and Microsoft Project </li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>2009</span><br>Payroll Administrator at Naza Motor Trading Sdn Bhd </li>
+                 <li><span>2006-2011</span><br>Photographer, Graphic Designer at Adam & Hawa Photography Berhad</li>
+                 <li><span>2018-Present</span><br>Multimedia Designer at The Malaysian Insurance Institute</li>
+          </ul>
+        </div>
+        
+      </div>
+    </div>
+   </div>
+
+
+
+  <footer class="copyright">
+    <p>Copyright © 2023 Hasmanira </p>
+  </footer>
+</div>
+
+
+</body>
+</html>
