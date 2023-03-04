@@ -316,11 +316,22 @@ color: #021859;
 
  /*---------------book-----------------------*/
 
-.book iframe{
-  width: 100%;
+
+.book img{
+ 
+ padding: 20px; 
+  width: 350px;
+  height: 450px;
+  cursor:pointer;
+  transition: transform 0.5s;
+  
 }
 
 
+.book img:hover{
+  transform: scale(1.1);
+  border-radius: 20px; 
+}
 
   /*---------------Contact-----------------------*/
   .contact-left{
