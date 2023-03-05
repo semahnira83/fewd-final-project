@@ -318,13 +318,11 @@ color: #021859;
 
 
 .book img{
- 
- padding: 20px; 
+  padding: 20px; 
   width: 350px;
   height: 450px;
   cursor:pointer;
   transition: transform 0.5s;
-  
 }
 
 
@@ -332,6 +330,27 @@ color: #021859;
   transform: scale(1.1);
   border-radius: 20px; 
 }
+
+  /*---------------video-----------------------*/
+
+  .video {
+    display: flex;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%;
+  }
+  
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    border: none;
+  }
 
   /*---------------Contact-----------------------*/
   .contact-left{
