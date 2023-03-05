@@ -117,6 +117,8 @@ font-weight: 600;
 color: #021859;
 }
 
+
+
 .tab-titles{
   display: flex;
   margin: 20px 0 40px;
@@ -318,11 +320,14 @@ color: #021859;
 
 
 .book img{
+  
+  margin: 10px auto 50px 30px;
   padding: 20px; 
   width: 350px;
   height: 450px;
   cursor:pointer;
   transition: transform 0.5s;
+
 }
 
 
@@ -332,15 +337,18 @@ color: #021859;
 }
 
   /*---------------video-----------------------*/
+ 
+ 
+  .video{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 600px 600px;
+    margin-top: 30px;
+    margin-left: 200px;
 
-  .video {
-    display: flex;
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    padding-top: 56.25%;
   }
   
+  /*
   .responsive-iframe {
     position: absolute;
     top: 0;
@@ -350,8 +358,9 @@ color: #021859;
     width: 50%;
     height: 50%;
     border: none;
-  }
+  }*/
 
+ 
   /*---------------Contact-----------------------*/
   .contact-left{
     flex-basis: 35%;
@@ -512,5 +521,12 @@ form .btn2{
     font-size: 14px;
   }
 
+ .video{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0;
+   
+
+  }
 
  }
